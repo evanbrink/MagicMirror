@@ -7,18 +7,12 @@
 
 // Evan note: although this is "compliments.js," I'm loading this with
 //            inspirational quotes instead from
-// 		https://gist.github.com/JakubPetriska/060958fd744ca34f099e947cd080b540
+//            https://gist.github.com/JakubPetriska/060958fd744ca34f099e947cd080b540
+
 Module.register("compliments", {
 	// Module config defaults.
 	defaults: {
 		compliments: {
-<<<<<<< Updated upstream
-			anytime: ["Hey there sexy!"],
-			morning: ["Good morning, handsome!", "Enjoy your day!", "How was your sleep?"],
-			afternoon: ["Hello, beauty!", "You look sexy!", "Looking good today!"],
-			evening: ["Wow, you look hot!", "You look nice!", "Hi, sexy!"],
-			"....-01-01": ["Happy new year!"]
-=======
 			anytime: [
 				"	Genius is one percent inspiration and ninety-nine percent perspiration.	\n-	Thomas Edison	",
 				"	You can observe a lot just by watching.	\n-	Yogi Berra	",
@@ -1685,16 +1679,10 @@ Module.register("compliments", {
 				"	My own dreams fortunately came true in this great state. I became Mr. Universe; I became a successful businessman. And even though some people say I still speak with a slight accent, I have reached the top of the acting profession.	\n-	Arnold Schwarzenegger	",
 				"	If it's hard to remember, it'll be difficult to forget.	\n-	Arnold Schwarzenegger	"
 			],
-			morning: [
-				"Hello, it is morning"
-			],
-			afternoon: [
-				"Hello, it is afternoon"
-			],
-			evening: [
-				"Hello, it is evening"
-			]
->>>>>>> Stashed changes
+			morning: ["Good morning, handsome!", "Enjoy your day!", "How was your sleep?"],
+			afternoon: ["Hello, beauty!", "You look sexy!", "Looking good today!"],
+			evening: ["Wow, you look hot!", "You look nice!", "Hi, sexy!"],
+			"....-01-01": ["Happy new year!"]
 		},
 		updateInterval: 30000,
 		remoteFile: null,
