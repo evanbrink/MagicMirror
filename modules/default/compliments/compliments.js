@@ -1675,9 +1675,9 @@ Module.register("compliments", {
 				"	Families is where our nation finds hope, where wings take dream. \n- George W. Bush	",
 				"	I know the human being and fish can coexist peacefully.	\n- George W. Bush	"
 			],
-			morning: ["Good morning, handsome!", "Enjoy your day!", "How was your sleep?"],
-			afternoon: ["Hello, beauty!", "You look sexy!", "Looking good today!"],
-			evening: ["Wow, you look hot!", "You look nice!", "Hi, sexy!"],
+			morning: ["Good morning!"],
+			afternoon: ["Good afternoon!"],
+			evening: ["Good evening!"],
 			"....-01-01": ["Happy new year!"]
 		},
 		updateInterval: 30000,
